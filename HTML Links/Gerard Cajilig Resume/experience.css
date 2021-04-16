@@ -1,0 +1,83 @@
+
+
+  .work p{
+    border: 5px double black;
+    margin: 5 px;
+    padding: 5px;
+    display: block;
+    background: rgba(255, 255, 255, 0.658);
+    background-clip: content-box;
+    opacity: 1px;
+    color: black;
+    font-weight: 700;
+    
+  }
+
+  .work h1 { 
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px 5px 5px;
+    text-shadow: 3px 3px #1f0372;
+    background-clip: initial;
+    opacity: 1 px;
+    color: rgb(234, 234, 240); 
+    letter-spacing: 2px;
+    max-width: 60 px;
+    text-align: left;
+  }
+
+  .work h2 { 
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px 5px 5px;
+    text-shadow: 3px 3px #1f0372;
+    background-clip: initial;
+    opacity: 1 px;
+    color: rgb(234, 234, 240); 
+    letter-spacing: 2px;
+    max-width: 40 px;
+    text-align: left;
+  }
+
+.work dl{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 5px double black;
+  margin: 5 px;
+  padding: 5px;
+  display: block;
+  background: rgba(247, 244, 244, 0.795);
+  background-clip: content-box;
+  opacity: 1px;
+  color: black;
+  font-size: 25px;
+  font-weight: 1000;
+}
+.work li{
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px double black;
+  margin: 5 px;
+  padding: 5px;
+  display: block;
+  /* background: rgba(247, 244, 244, 0.795); */
+  background-clip: content-box;
+  opacity: 1px;
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+a:link, a:visited
+{
+color: white;
+text-decoration: none;
+/* background-color: hsla(0, 90%, 26%, 0.4); */
+
+}
+
+
+
+a:hover, a:active
+{
+color: red;
+/* background-color: rgba(55, 34, 172, 0.7); */
+}

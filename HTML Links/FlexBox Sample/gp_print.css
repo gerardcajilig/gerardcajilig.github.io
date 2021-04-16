@@ -1,0 +1,65 @@
+@charset "utf-8";
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 5
+   Case Problem 1
+   
+   Author:   Gerard Cajilig
+   Date:     March 8, 2021
+   
+   Filename: gp_print.css
+
+   This file contains the printer styles used with the sample
+   comic book pages from Golden Pulps.
+
+*/
+
+
+
+
+/* Hidden Objects */
+
+nav, footer, article {
+   display: none;
+}
+
+section#sheet {
+   width: 6in;
+   margin-top: 0;
+   margin-bottom: 0;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.panel_size1 {
+   width: 5in;
+}
+
+.panel_size2 {
+   width: 3in;
+}
+
+.panel_size3 {
+   width: 2in;
+
+}
+
+.panel_size4 {
+   width: 1.5in;
+}
+
+
+
+/* Comic Book Sheet Styles */
+
+
+
+
+
+
+	
+
+
+
+
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/formula.css" rel="stylesheet">
+    <script src ="js/script.js"></script> 
+
+</head>
+<body>
+    <header>
+        <h2>Gerard Cajilig 300325001</h2>
+        <h3>SAMPLE Calculator</h3>
+    </header>
+    <form>
+        
+        <fieldset>
+            <legend>Computation Area</legend>
+            <textarea name="input" id="inp1" row="3" cols="15"placeholder="Type Number Value#1"></textarea>
+            <textarea name="input" id="inp2" row="3" cols="15"placeholder="Type Number Value#2"></textarea>
+        <br />
+        <input type="button" name="submit" value="+" onclick="sumtwo()">
+        <input type="button" name="submit" value="-" onclick="difftwo()">
+        <input type="button" name="submit" value="X" onclick="multitwo()">
+        <input type="button" name="submit" value="%" onclick="divtwo()"><br/><br/>
+        <input type="button" name="submit" value="clr" onclick="nose()"><br/><br/>
+        </fieldset>
+        
+        <fieldset>
+            <legend>OUTPUT</legend>
+            <textarea name="output" id="sumplace" row="3" cols="20"placeholder="Equation shown here"></textarea>
+            
+        </fieldset>
+    </form>
+</body>
+</html>
+
+
+

@@ -1,0 +1,365 @@
+/* Global Layout Set-up */
+* { 
+  box-sizing: border-box;
+}
+  
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background: #f7f5f0;
+}
+/* Link Styles */
+
+a {
+  text-decoration: none;
+  color: #999;
+}
+a:hover {
+  color: #6633ff;
+}
+
+/* Section Styles */
+
+.main-nav {
+  width: 100%;
+  background: black;
+  min-height: 25px;
+  padding: 10px;
+  position: fixed;
+  text-align: left;
+}
+.nav {
+  display: flex;
+  justify-content: left;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  letter-spacing: 1px;
+}
+
+.nav .second {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+.nav .name {
+    
+    display: block;
+    margin-right: auto;
+    color: white;
+    text-align: left;
+}
+.nav li {
+  padding: 5px 
+}
+.nav a {
+  transition: all .5s;
+}
+.nav a:hover {
+  color: white
+}
+
+header {
+  text-align: center;
+  background: url('images/pokergame.jpg') no-repeat center center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+header {
+  line-height: 1.5;
+}
+header .profile-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+header .profile-image:hover {
+  transform: scale(1.2) rotate(5deg);
+}
+
+.douglas {
+  text-align: left;
+  background: url('images/douglas\ college.jpg') no-repeat center ;
+  background-size: cover;
+  /* overflow: hidden; */
+  padding-top: 60px;
+  border: 5px solid rgb(3, 3, 3);
+  opacity: 1;
+
+
+
+
+
+}
+
+.douglas {
+  line-height: 1.5;
+
+}
+
+.cityofdreams {
+  text-align: left;
+  background: url('images/pitsupervisor.jpg') no-repeat center ;
+  
+  
+  /* overflow: hidden; */
+  padding-top: 60px;
+  opacity: .8;
+  border: 5px solid rgb(3, 3, 3);
+
+
+  background-size: cover;
+}
+
+.cityofdreams {
+  line-height: 1.5;
+}
+
+.dealer {
+  text-align: left;
+  background: url('images/dealer1.jpg') no-repeat center ;
+  background-size: cover;
+  /* overflow: hidden; */
+  padding-top: 60px;
+  opacity: .75;
+  border: 5px solid rgb(3, 3, 3);
+}
+
+.dealer {
+  line-height: 1.5;
+}
+
+
+
+
+
+.tag {
+  background-color: #efefef;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+} 
+.location {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight:800;
+  letter-spacing: 1px;
+  background-color: rgba(70, 53, 53, 0.568);
+  color: rgb(212, 212, 86);
+  text-shadow:2px 2px #222;
+}
+.card {
+  margin: 20px;
+  padding: 20px 20px 25px;
+  max-width: 600px;
+  text-align: center;
+  background: url('images/Philippines.jpg');
+  background-size: 600px 400px;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+  opacity: 1;
+  color: black;
+  
+}
+
+.card h2 { 
+  font-size: 30px;
+  /* border: 5px double black; */
+  padding: 5px 5px 5px;
+  text-shadow: 3px 3px #4612e4;
+  background-clip: initial;
+  opacity: 1 px;
+  color: rgb(234, 234, 240); 
+  letter-spacing: 2px;
+  max-width: 50 px;
+  text-align: left;
+}
+.card p {
+  border: 5px double black;
+  margin: 5 px;
+  padding: 5px;
+  display: block;
+  background: rgba(255, 255, 255, 0.658);
+  background-clip: content-box;
+  opacity: .3px;
+  color: black;
+  font-weight: 700;
+  
+}
+.cards {
+  
+
+
+  margin: 20px;
+  padding: 20px 20px 25px;
+  max-width: 600px;
+  text-align: center;
+  background: url('images/canada1.jpg');
+  background-size: 600px 400px;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+  opacity: 1;
+  color: black;
+  
+
+}
+
+.cards h2 { 
+  font-size: 30px;
+  /* border: 5px double black; */
+  padding: 5px 5px 5px;
+  text-shadow: 3px 3px #4612e4;
+  background-clip: initial;
+  opacity: 1 px;
+  color: rgb(234, 234, 240); 
+  letter-spacing: 2px;
+  max-width: 50 px;
+  text-align: left;
+}
+.cards p {
+  border: 5px double black;
+  margin: 5 px;
+  padding: 5px;
+  display: block;
+  background: rgba(255, 255, 255, 0.658);
+  background-clip: content-box;
+  opacity: .3px;
+  color: black;
+  font-weight: 700;
+  
+}
+
+.card:hover {
+  border-color: #2e0fdd;
+}
+
+.cards:hover {
+  border-color: #2e0fdd;
+}
+
+
+ul.skills {
+  padding: 0;
+  text-align: center;
+}
+
+.skills li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #ff9904;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.skills li:nth-child(odd) {
+  background: #0399ff;
+}
+
+footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 30px 0 40px 20px;
+}
+
+footer .copyright {
+  top: -8px;
+  font-size: .75em;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .4;
+  transition: all .5s;
+}
+a.facebook {
+  background-image: url(images/facebook.svg);
+}
+a.instagram {
+  background-image: url(images/instagram.svg);
+}
+
+a.social:hover {
+  opacity: 1;
+}
+.clearfix {
+  clear: both;
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 720px) {
+  
+  .flex {
+      display: -ms-flexbox;      /* TWEENER - IE 10 */
+      display: flex; 
+      max-width: 3000px;
+      -ms-flex-pack: distribute;
+      justify-content: center;
+      margin: 0 auto;
+  }
+
+  header {
+    min-height: 470px;
+  }
+
+  .nav {
+    max-width: 1200px;
+    padding: 0 30px;
+  }
+
+
+  main {
+    padding-top: 20px;
+  }
+
+  main p {
+    line-height: 1.6em;
+  }
+
+  footer {
+    font-size: 1.3em;
+    max-width: 1300px;
+    margin: 40px auto;
+  }
+
+}
+
+
+aa:link, a:visited
+{
+color:white;
+text-decoration: none;
+/* background-color: hsla(0, 90%, 26%, 0.4); */
+
+}
+
+
+
+a:hover, a:active
+{
+color: red;
+/* background-color: rgba(55, 34, 172, 0.7); */
+}
